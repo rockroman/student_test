@@ -95,6 +95,11 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+i.fa-solid.fa-mug-hot {
+    height:30px;
+    width:30px;
+ }
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
