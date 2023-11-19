@@ -26,9 +26,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'p@ei#69*b*zz3u4yie-$()@cy^l(+x9&@6ypx+r0lm(3%_9hr7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['the-soup-fan-6573d32fd512.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['the-soup-fan-6573d32fd512.herokuapp.com', '8000-elliotjonesd-thesoupfan-qsgoxljsriz.ws-eu106.gitpod.io', 'localhost']
 
 
 # Application definition
@@ -217,4 +217,4 @@ STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 DEFAULT_FROM_EMAIL = 'thesoupfan@example.com'
 
-print(STRIPE_WH_SECRET)
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
