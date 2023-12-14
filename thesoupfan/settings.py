@@ -28,7 +28,7 @@ SECRET_KEY = 'p@ei#69*b*zz3u4yie-$()@cy^l(+x9&@6ypx+r0lm(3%_9hr7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['the-soup-fan-6573d32fd512.herokuapp.com', '8000-elliotjonesd-thesoupfan-qsgoxljsriz.ws-eu106.gitpod.io', 'localhost']
+ALLOWED_HOSTS = ['the-soup-fan-6573d32fd512.herokuapp.com', '8000-elliotjonesd-thesoupfan-qsgoxljsriz.ws-eu107.gitpod.io', 'localhost']
 
 
 # Application definition
