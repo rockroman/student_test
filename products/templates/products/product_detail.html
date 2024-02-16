@@ -28,8 +28,13 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="product-details-container mb-5 mt-md-5">
-                    <p class="mb-0">{{ product.name }}</p>
+                    <h1 class="mb-0">{{ product.name }}</h1>
                     <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
+
+                    {% if product.get_rating > 0 %}
+                    <p class="mt-1 text-gray-400">Rating: {{ product.get_rating }} /6</p>
+                    {% endif %}
+
                     {% if product.category %}
                     <p class="small mt-1 mb-0">
                         <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
@@ -115,7 +120,7 @@
 <h2 class="text-xl">Reviews</h2>
 
 {% if request.user.is_authenticated %}
-<form method="post" action="." class="mt-6 p-6 bg-gray-100 rounded-xl">
+<form method="post" action="." class="mt-6 p-6 bg-light rounded-xl">
     {% csrf_token %}
 
     <div>
@@ -138,6 +143,15 @@
     </div>
 </form>
 {% endif %}
+
+{% for review in product.reviews.all %}
+    <div class="px-4 py-6 bg-light rounded-xl mb-4">
+        <strong>Rating:</strong> {{ review.rating }}/6<br>
+        <strong>Date:</strong> {{ review.created_at|date:"Y-m-d" }}<br>
+        <strong>Comment:</strong><br>
+        {{ review.content }}
+    </div>
+{% endfor %}
     </div>
 {% endblock %}
 
