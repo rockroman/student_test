@@ -10,6 +10,10 @@ body {
     font-family: 'Lato';
 }
 
+h2.logo-font.text-black.my-0 {
+    font-size: 4em;
+}
+
 header #text {
     z-index: 1;
     color: white;
@@ -31,7 +35,7 @@ div.blog {
 
 .logo-font {
     text-transform: uppercase;
-    font-family: Georgia ;
+    font-family: Arial ;
 }
 
 .main-logo-link {
