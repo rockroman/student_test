@@ -1,25 +1,29 @@
+/* General styling for HTML and body */
 html {
     height: 100%;
 }
 
 body {
+    /* Background image with cover size */
     background: url('/media/soup.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
-    color: #555;
-    font-family: 'Lato';
+    height: calc(100vh - 164px); /* Full height minus 164 pixels */
+    color: #555; /* Default text color */
+    font-family: 'Lato'; /* Default font family */
 }
 
+/* Logo styling */
 h2.logo-font.text-black.my-0 {
-    font-size: 4em;
+    font-size: 4em; /* Font size for logo */
 }
 
+/* Header text */
 header #text {
-    z-index: 1;
-    color: white;
+    z-index: 1; /* Ensure text is above background */
+    color: white; /* Text color */
 }
 
-/* from Bulma */
+/* Styling for icons */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -28,37 +32,44 @@ header #text {
     width: 1.5rem;
 }
 
+/* Blog section styling */
 div.blog {
-   margin-top: 12rem;
-   color: black;
+   margin-top: 12rem; /* Margin from the top */
+   color: black; /* Text color */
 }
 
+/* Additional logo font styling */
 .logo-font {
-    text-transform: uppercase;
-    font-family: Arial ;
+    text-transform: uppercase; /* Uppercase text */
+    font-family: Arial; /* Font family */
 }
 
+/* Styling for main logo link */
 .main-logo-link {
     width: fit-content;
 }
 
+/* Styling for shop now button */
 .shop-now-button {
     background: black;
     color: white;
     min-width: 260px;
 }
 
+/* Button styling */
 .btn-black {
     background: black;
     color: white;
 }
 
+/* Outline button styling */
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
+    color: black !important; /* Override link colors */
     border: 1px solid black;
 }
 
+/* Button hover, active, and focus states */
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
@@ -76,33 +87,39 @@ div.blog {
     color: white;
 }
 
+/* Text color class */
 .text-black {
     color: #000 !important;
 }
 
+/* Border color class */
 .border-black {
     border: 1px solid black !important;
 }
 
+/* Background color class */
 .bg-black {
     background: #000 !important;
 }
 
+/* Overlay styling */
 .overlay {
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	background: white;
-	z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
 }
 
+/* Category badge styling */
 a.category-badge > span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
 }
 
+/* Back to top button styling */
 .btt-button {
     height: 42px;
     width: 42px;
@@ -111,18 +128,19 @@ a.category-badge > span.badge:hover {
     right: 10px;
 }
 
+/* Styling for links */
 .btt-link,
 .update-link,
 .remove-item {
     cursor: pointer;
 }
 
+/* Placeholder text color */
 input[name='q']::placeholder {
     color: #aab7c4;
 }
 
-/* ------------------------------- bootstrap toasts */
-
+/* Styling for message containers */
 .message-container {
     position: fixed;
     top: 72px;
@@ -130,67 +148,62 @@ input[name='q']::placeholder {
     z-index: 99999999999;
 }
 
+/* Custom toast styling */
 .custom-toast {
     overflow: visible;
 }
 
+/* Toast cap styling */
 .toast-capper {
     height: 2px;
 }
 
-/* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
+/* Arrow styling */
 .arrow-up {
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 4px solid transparent;
-    border-right: 4px solid transparent; 
+    border-right: 4px solid transparent;
     border-bottom: 10px solid black;
     position: absolute;
     top: -10px;
     right: 36px;
 }
 
-/* Convenience classes - colors copied from Bootstrap */
+/* Arrow color classes */
 .arrow-primary {
     border-bottom-color: #007bff !important;
 }
-
 .arrow-secondary {
     border-bottom-color: #6c757d !important;
 }
-
 .arrow-success {
     border-bottom-color: #28a745 !important;
 }
-
 .arrow-danger {
     border-bottom-color: #dc3545 !important;
 }
-
 .arrow-warning {
     border-bottom-color: #ffc107 !important;
 }
-
 .arrow-info {
     border-bottom-color: #17a2b8 !important;
 }
-
 .arrow-light {
     border-bottom-color: #f8f9fa !important;
 }
-
 .arrow-dark {
     border-bottom-color: #343a40 !important;
 }
 
+/* Bag notification wrapper styling */
 .bag-notification-wrapper {
     height: 100px;
     overflow-x: hidden;
     overflow-y: auto;
 }
 
-/* -------------------------------- Media Queries */
-
+/* Media queries for responsiveness */
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
   .container {
@@ -199,14 +212,13 @@ input[name='q']::placeholder {
 }
 
 /* Allauth form formatting */
-
 .allauth-form-inner-content p {
-    margin-top: 1.5rem; /* mt-4 */
-    color: #6c757d; /* text-secondary */
+    margin-top: 1.5rem; /* Margin top */
+    color: #6c757d; /* Text color */
 }
 
 .allauth-form-inner-content input {
-    border-color: #000;
+    border-color: #000; /* Border color */
     border-radius: 0;
 }
 
@@ -215,12 +227,13 @@ input[name='q']::placeholder {
 }
 
 .allauth-form-inner-content input::placeholder {
-    color: #aab7c4;
+    color: #aab7c4; /* Placeholder text color */
 }
 
+/* Button and input styling for Allauth forms */
 .allauth-form-inner-content button,
 .allauth-form-inner-content input[type='submit'] {
-	/* btn */
+	/* Button styling */
 	display: inline-block;
     font-weight: 400;
     color: #fff;
@@ -237,10 +250,11 @@ input[name='q']::placeholder {
     line-height: 1.5;
     border-radius: 0;
 
-    /* standard bootstrap btn transitions */
+    /* Standard bootstrap button transitions */
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+/* Button hover state */
 .allauth-form-inner-content button:hover,
 .allauth-form-inner-content input[type='submit']:hover {	
 	color: #fff;
@@ -248,12 +262,12 @@ input[name='q']::placeholder {
     border-color: #222;
 }
 
+/* Link styling for Allauth forms */
 .allauth-form-inner-content a {
-	color: #17a2b8; /* text-info */
+	color: #17a2b8; /* Text color */
 }
 
-/* Product Form */
-
+/* Product form styling */
 .btn-file {
     position: relative;
     overflow: hidden;
@@ -269,6 +283,7 @@ input[name='q']::placeholder {
     cursor: pointer;
 }
 
+/* Custom checkbox styling */
 .custom-checkbox .custom-control-label::before {
     border-radius: 0;
     border-color: #dc3545;
@@ -280,8 +295,7 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
-
-/* fixed top navbar only on medium and up */
+/* Media query for fixed top navbar */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -296,7 +310,7 @@ input[name='q']::placeholder {
     }
 }
 
-/* pad the top a bit when navbar is collapsed on mobile */
+/* Media query for collapsed navbar on mobile */
 @media (max-width: 991px) {
     .header-container {
         padding-top: 116px;
