@@ -14,7 +14,7 @@ body {
 
 /* Logo styling */
 h2.logo-font.text-black.my-0 {
-    font-size: 4em; /* Font size for logo */
+    font-size: 3em; /* Font size for logo */
 }
 
 /* Header text */
@@ -30,6 +30,10 @@ header #text {
     justify-content: center;
     height: 1.5rem;
     width: 1.5rem;
+}
+
+div.d-flex.justify-content-center.small.text-warning.mb-2 {
+    font-size: 1.5em;
 }
 
 /* Blog section styling */

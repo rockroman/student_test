@@ -1,8 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bag-total</title>
+</head>
+<body>
+
+<!-- Displaying the total cost of items in the bag -->
 <h6><strong>Bag Total: ${{ total|floatformat:2 }}</strong></h6>
+
+<!-- Displaying the delivery charge -->
 <h6>Delivery: ${{ delivery|floatformat:2 }}</h6>
+
+<!-- Displaying the grand total (total cost + delivery charge) -->
 <h4 class="mt-4"><strong>Grand Total: ${{ grand_total|floatformat:2 }}</strong></h4>
+
+<!-- Checking if there's a possibility for free delivery -->
 {% if free_delivery_delta > 0 %}
     <p class="mb-1 text-danger">
         You could get free delivery by spending just <strong>${{ free_delivery_delta }}</strong> more!
     </p>
 {% endif %}
+
+</body>
+</html>  

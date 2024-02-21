@@ -49,3 +49,4 @@ Mobile View
 
 ## User Stories
 <img width="870" alt="Screenshot 2023-10-17 at 18 03 08" src="https://github.com/elliotjonesdev/the_soup_fan/assets/119816371/9e14f10b-369a-4751-8431-c0c04571e404">
+
