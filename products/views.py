@@ -11,7 +11,6 @@ from .forms import ProductForm
 
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
-
     products = Product.objects.all()
     query = None
     categories = None
@@ -61,7 +60,6 @@ def all_products(request):
 
 def product_detail(request, product_id):
     """ A view to show individual product details """
-
     product = get_object_or_404(Product, pk=product_id)
 
     if request.method == 'POST':
@@ -82,7 +80,7 @@ def product_detail(request, product_id):
                     rating=rating,
                     content=content,
                     created_by=request.user
-            )
+                )
 
             return redirect('product_detail', product_id=product_id)  # Correct redirection
 
@@ -159,3 +157,4 @@ def delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
+    

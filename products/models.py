@@ -3,7 +3,6 @@ from django.db import models
 
 
 class Category(models.Model):
-
     class Meta:
         verbose_name_plural = 'Categories'
         
@@ -27,23 +26,16 @@ class Product(models.Model):
     rating = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
-    # Add sale information
-    is_sale = models.BooleanField(default=False)
-    sale_price = models.DecimalField(default=0, max_digits=6, decimal_places=2)
+    is_sale = models.BooleanField(default=False)  # Indicates if the product is on sale
+    sale_price = models.DecimalField(default=0, max_digits=6, decimal_places=2)  # Sale price
 
     def __str__(self):
         return self.name
 
     def get_rating(self):
-        reviews_total = 0
+        reviews_total = sum(review.rating for review in self.reviews.all())
+        return reviews_total / self.reviews.count() if self.reviews.count() > 0 else 0
 
-        for review in self.reviews.all():
-            reviews_total += review.rating
-
-        if reviews_total > 0:
-            return reviews_total / self.reviews.count()
-
-        return 0
 
 class Review(models.Model):
     product = models.ForeignKey(Product, related_name='reviews', on_delete=models.CASCADE)
@@ -51,6 +43,3 @@ class Review(models.Model):
     content = models.TextField()
     created_by = models.ForeignKey(User, related_name='reviews', on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
-
-
-

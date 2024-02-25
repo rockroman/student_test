@@ -50,3 +50,175 @@ Mobile View
 ## User Stories
 <img width="870" alt="Screenshot 2023-10-17 at 18 03 08" src="https://github.com/elliotjonesdev/the_soup_fan/assets/119816371/9e14f10b-369a-4751-8431-c0c04571e404">
 
+
+## User Features
+* #### Logo and welcome message
+IMAGE
+
+* #### Navigation
+IMAGE
+
+* #### Footer
+IMAGE
+
+* #### Search Bar
+IMAGE
+
+* #### Login Page
+IMAGE
+
+* #### Login Error Message
+IMAGE
+    
+* #### Registration Page
+IMAGE
+
+* #### Registration Error Message
+IMAGE
+
+* #### Profile Page
+IMAGE
+
+* #### New Item Page
+IMAGE
+
+IMAGE
+
+* #### New Item Category
+IMAGE
+
+* #### New Item Error Message
+IMAGE
+
+* #### Item Success Message
+IMAGE
+
+* #### Logged In Homepage
+IMAGE
+ 
+* #### Edit Item
+IMAGE 
+
+* #### Edit Success Message
+IMAGE
+
+* #### Delete Success Message
+IMAGE
+
+* #### Logout Success 
+IMAGE
+
+
+
+
+
+
+## Admin Features
+* #### Profile Page
+IMAGE
+
+* #### Navigation
+IMAGE
+
+* #### Manage Categories
+IMAGE
+
+* #### Add Category
+
+IMAGE
+
+* #### Edit Category
+      
+IMAGE
+
+
+
+
+
+## Future Additions
+IMAGE
+
+## Deployment
+* #### Creating An Application With Heroku
+The following steps need to be taken to deploy the application.
+
+* Requirements to run the app - "pip3 freeze --local > requirements.txt".
+* use the echo command: "echo web: python app.py > Procfile".
+* Go to Heroku.com, and once you're logged in 
+* Click 'Create a New App'.
+* Create the application name, all lowercase with dash or minus instead of spaces
+* Next, select the region closest to you then click 'Create App'.
+* To set up automatic deployments make sure the  correct GitHub profile is displayed, then add your repository name, then click 'Search'.
+* Once it finds the repo, click to connect to this app.
+* Click on the 'Settings' tab for the app, and then click on 'Reveal Config Vars', 
+* Input the variables, do not to include any "quotes" for the key, or the value -
+* IP, with the value of 0.0.0.0.
+* PORT, which is 5000.
+* SECRET_KEY, copy from the env.py file, then paste it into Heroku.
+* MONGO_URI , leave blank
+* MONGO_DBNAME, name of the database
+* Go back to the 'Deploy' tab
+* In the terminal, typed'git status' just to confirm pending changes
+* Add the requirements file to the staging area using command: "git add requirements.txt".
+* Commit the file: "git commit -m "Add requirements.txt".
+* Add the Procfile using: "git add Procfile".
+* Commit that file as well using: "git commit -m "Add Procfile".
+* Use "git push" to send the files to GitHub.
+* Go to Heroku and'Enable Automatic Deployment', 
+* Click 'Deploy Branch'.
+* Click "View" to launch the app.
+* Push changes to the GitHub repository.
+
+
+## Testing
+* #### Code Validation
+  PYTHON - CI Python Linter
+  - No issues found
+IMAGE
+
+  HTML - W3. Org Validator
+  - No Issues Found
+IMAGE
+  
+  CSS - W3C Jigsaw Validator
+  - No issues found
+ IMAGE
+
+  JAVASCRIPT - JSHINT
+  - No issues found
+IMAGE
+
+
+
+* #### Lighthouse Analysis
+
+
+* #### Browser Compatibility
+Chrome
+<br>
+IMAGE
+
+<br>
+Safari
+<br>
+IMAGE
+
+* #### Responsiveness
+iPhone 12 Pro
+<br>
+<p align="center">IMAGE</p>
+<br>
+Surface Pro 7
+<br>
+<p align="center">IMAGE</p>
+<br>
+Macbook Pro
+<br>
+<p align="center"></p>  
+
+## Credits
+### Media
+ * Icons for the forms are from [NAME](URL)
+ * The responsive framework is from [NAME](URL)
+ * Images are taken froM [NAME](URL)
+
