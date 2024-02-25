@@ -32,7 +32,7 @@
                     <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
 
                     {% if product.get_rating > 0 %}
-                    <p class="mt-1 text-gray-400">Rating: {{ product.get_rating }} /6</p>
+                    <p class="mt-1 text-gray-400"><i class="fas fa-star mr-1" style="color: goldenrod;"></i>Rating: {{ product.get_rating }} /6</p>
                     {% endif %}
 
                     {% if product.category %}
@@ -41,11 +41,6 @@
                             <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
                         </a>
                     </p>
-                    {% endif %}
-                    {% if product.rating %}
-                        <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
-                    {% else %}
-                        <small class="text-muted">No Rating</small>
                     {% endif %}
                     {% if request.user.is_superuser %}
                         <small class="ml-3">
