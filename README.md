@@ -6,14 +6,31 @@ Am i responsive here
 ## UX
 
 ### Project Goals
-The primary goal of The Soup Fan is...
+* The primary objective of The Soup Fan e-commerce website is to provide a convenient platform for customers to purchase delicious homemade soups online and have them delivered to their doorstep within the local area. Our goals encompass:
+
+* User-Friendly Experience: Creating an intuitive and seamless browsing and purchasing experience for customers, with a focus on ease of navigation, clear product descriptions, and secure payment options.
+
+* Local Community Engagement: Fostering a sense of community by supporting local suppliers and artisans, as well as offering delivery services exclusively within our local area to reduce carbon footprint and support neighborhood businesses.
+
+* Customer Satisfaction: Prioritizing customer satisfaction by providing responsive customer service, accommodating special reviews, and continuously seeking feedback to improve our products and services.
+
+* Promotion of Healthy Living: Encouraging healthy eating habits by offering nutritious soup options made from wholesome ingredients, and providing educational content on the benefits of homemade soups as part of a balanced diet.
+
+* By staying true to these goals, The Soup Fan aims to become the go-to destination for soup lovers in our local community, known for our exceptional quality, convenience, and commitment to supporting local businesses and sustainable practices.
 
 
-#### User Goals
-* To find out information about GENER8 GYM quickly and easily
-* Interact with the website in an intuitive manner
-* To identify with the modern appeal and layout of the website
-* To easily operate the website on all devices 
+#### User/Customer Goals
+* The Soup Fan website is designed with the following user goals in mind, ensuring a seamless and enjoyable experience for all our customers:
+
+* Convenient Ordering: Users can easily browse through our selection of homemade soups, view detailed descriptions, and add their desired items to the cart with just a few clicks.
+
+* The ability to engage with the company and website and leave user reviews with description and rating
+
+* Transparent Pricing: Ensuring transparency in pricing, including clear breakdowns of product costs, delivery fees (if applicable), and any discounts - items that are on sale including the original price and sale price
+
+* Secure Stripe Transactions: Implementing robust security measures to safeguard users' personal and financial information during the checkout process, instilling confidence in the safety of online transactions.
+
+* Easily edit snd update the shopping cart during thordering process and clearly see basket items before committing to order
 
 #### Business Goals
 * To 
