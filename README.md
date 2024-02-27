@@ -1,7 +1,18 @@
 # THE SOUP FAN
-The Soup Fan is....
+Welcome
+Welcome to The Soup Fan, your ultimate destination for delicious homemade soups delivered straight to your doorstep! At The Soup Fan, we're passionate about bringing you the comforting warmth and rich flavours of homemade soups made with love and care.
 
-Am i responsive here
+About Us
+At The Soup Fan, we understand the joy of savouring a steaming bowl of soup made from scratch. That's why we've curated a mouth watering selection of homemade soups, crafted with the finest ingredients and prepared by skilled chefs who share our passion for culinary excellence.
+
+Our Mission
+Our mission at The Soup Fan is simple: to provide soup enthusiasts like you with a convenient and hassle-free way to enjoy high-quality homemade soups whenever the craving strikes. Whether you're craving a classic chicken noodle soup, a hearty vegetable stew, or a creamy tomato soup, we've got you covered.
+
+How It Works
+Ordering from The Soup Fan is quick and easy. Simply browse our selection of homemade soups, add your favourites to your cart, and proceed to checkout. Our team will then prepare your order with care and precision, ensuring that each soup is fresh, flavourful, and ready to enjoy.
+
+
+AM I RESPONSIVE. .. . . . 
 
 ## UX
 
@@ -33,9 +44,15 @@ Am i responsive here
 * Easily edit snd update the shopping cart during thordering process and clearly see basket items before committing to order
 
 #### Business Goals
-* To 
-* To
-* 
+* Offering Quality and Variety: The Soup Fan aims to offer a diverse selection of homemade soups crafted with the finest ingredients, ensuring a delightful culinary experience for the customer. Each soup is prepared fresh which is articulated through the product description
+
+* Convenience and Accessibility: The Soup Fan website strives to make the soup ordering process simple, quick, and hassle-free. Customers can browse through our selection, place orders, and have their soups delivered to their doorstep, providing them with convenience and accessibility to delicious homemade meals.
+
+* Promoting Healthy Eating Habits: The Soup Fan believes in the nourishing power of homemade soups made with fresh, wholesome ingredients. By promoting homemade soup consumption, it aims to encourage healthier eating habits among our customers, supporting their well-being and overall health.
+
+* Supporting Local Communities: The project aims to support local communities by sourcing ingredients locally whenever possible and collaborating with local suppliers. It seeks to foster a sense of community and sustainability through our business practices, contributing to the growth and prosperity of local economies.
+
+* Customer Satisfaction and Engagement: Customer satisfaction is paramount to the success. Additionally, The Soup Fan aims to engage with customers via reviews/feedback to help improve the end user choices.
 
 ## Initial Wireframes
 Desktop And Tablet View
