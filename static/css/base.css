@@ -36,6 +36,12 @@ div.d-flex.justify-content-center.small.text-warning.mb-2 {
     font-size: 1.5em;
 }
 
+/* Newsletter subscribe text */
+h2.subtitle {
+    margin-top: 200px;
+    color: black;
+}
+
 /* Blog section styling */
 div.blog {
    margin-top: 12rem; /* Margin from the top */
