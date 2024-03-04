@@ -60,6 +60,31 @@ div.blog {
     min-width: 260px;
 }
 
+/* Styling for posts */
+div.post.block {
+margin-top: 200px;
+margin-left: 50px;
+margin-right: 50px;
+background-color: gray;
+padding: 100px;
+color: #000;
+}
+
+/* Read more link blog*/
+a {
+    color:white;
+}
+
+/* extended text blog*/
+p.extend {
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: gray;
+    padding: 100px;
+color: #000;
+}
+
 /* Button styling */
 .btn-black {
     background: black;
