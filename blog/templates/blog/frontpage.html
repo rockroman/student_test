@@ -7,9 +7,9 @@
 
             <small>Posted at {{ post.date_added }}</small>
 
-            <p>{{ post.intro }}</p>
+            <p class="my-text">{{ post.intro }}</p>
 
-            <a href="{% url 'post_detail' post.slug %}">Read more</a>
+            <a class="read-more" href="{% url 'post_detail' post.slug %}">Read more</a>
         </div>
     {% endfor %}
 {% endblock %}
