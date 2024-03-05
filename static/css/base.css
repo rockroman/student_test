@@ -32,6 +32,13 @@ header #text {
     width: 1.5rem;
 }
 
+/* Styling for product reviews */
+div.w-full.mt-6 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
 div.d-flex.justify-content-center.small.text-warning.mb-2 {
     font-size: 1.5em;
 }
@@ -62,12 +69,30 @@ div.blog {
 
 /* Styling for posts */
 div.post.block {
-margin-top: 200px;
-margin-left: 50px;
-margin-right: 50px;
-background-color: gray;
-padding: 100px;
-color: #000;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: gray;
+    color: #000;
+}
+
+/* Styling for blog comments form*/
+form.my-form {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+
+h2.subtitle {
+    margin-left: 50px;
+    margin-right: 50px;
+    color:#000
+}
+
+article.media {
+    margin-left: 50px;
+    margin-right: 50px;
+    color:#000
 }
 
 /* Read more link blog*/
@@ -77,12 +102,13 @@ a {
 
 /* extended text blog*/
 p.extend {
-    margin-top: 200px;
+    margin-top: 120px;
     margin-left: 50px;
     margin-right: 50px;
     background-color: gray;
     padding: 100px;
-color: #000;
+    color: #000;
+    padding: 100px;
 }
 
 /* Button styling */
