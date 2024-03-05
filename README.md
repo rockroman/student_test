@@ -86,9 +86,14 @@ Mobile View
 
 
 ## User Features
-* #### Logo and welcome message
-IMAGE
+* #### User wants to view a list of products
+<img width="1440" alt="Screenshot 2024-03-05 at 21 03 18" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/713392e4-9f9b-4a63-b69b-7f6d4387c85d">
 
+* #### User wants to find deals easily
+<img width="1440" alt="Screenshot 2024-03-05 at 21 03 41" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/6bbf2000-c469-4d1d-8ddf-f69c87cdfaeb">
+
+* #### User wants to view the purchase total at any time
+<img width="1440" alt="Screenshot 2024-03-05 at 21 04 02" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/584a9fa9-7427-4eb5-b484-fe7635d0a4b0">
 * #### Navigation
 IMAGE
 
