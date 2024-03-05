@@ -89,6 +89,9 @@ Mobile View
 * #### User wants to view a list of products
 <img width="1440" alt="Screenshot 2024-03-05 at 21 03 18" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/713392e4-9f9b-4a63-b69b-7f6d4387c85d">
 
+* #### User wants to view product details
+<img width="1440" alt="Screenshot 2024-03-05 at 21 11 30" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/5a45c0b7-5f54-4b9b-a45d-e9a354e99cad">
+
 * #### User wants to find deals easily
 <img width="1440" alt="Screenshot 2024-03-05 at 21 03 41" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/6bbf2000-c469-4d1d-8ddf-f69c87cdfaeb">
 
