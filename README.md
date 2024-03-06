@@ -12,7 +12,8 @@ How It Works
 Ordering from The Soup Fan is quick and easy. Simply browse our selection of homemade soups, add your favourites to your cart, and proceed to checkout. Our team will then prepare your order with care and precision, ensuring that each soup is fresh, flavourful, and ready to enjoy.
 
 
-AM I RESPONSIVE. .. . . . 
+![responsivepic](https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/6fabb78c-6b52-4fe4-b8af-04b9fa2ee365)
+
 
 ## UX
 
