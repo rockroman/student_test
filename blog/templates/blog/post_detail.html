@@ -22,6 +22,12 @@
                         <br>
                         {{ comment.body }}
                     </p>
+                    {% if user.is_authenticated and comment.user == user %}
+                    <div>
+                        <a href="{% url 'edit_comment' comment.id %}" class="button is-info">Edit</a>
+                        <a href="{% url 'delete_comment' comment.id %}" class="button is-danger">Delete</a>
+                    </div>
+                {% endif %}
                 </div>
             </div>
         </article>

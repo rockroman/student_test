@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Delete Comment</h1>
+
+    <form method="post" action="{% url 'delete_comment' comment.pk %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="button is-primary">Delete Comment</button>
+    </form>
+{% endblock %}
