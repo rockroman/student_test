@@ -290,17 +290,8 @@ Safari
 IMAGE
 
 * #### Responsiveness
-iPhone 12 Pro
-<br>
-<p align="center">IMAGE</p>
-<br>
-Surface Pro 7
-<br>
-<p align="center">IMAGE</p>
-<br>
-Macbook Pro
-<br>
-<p align="center"></p>  
+<img width="930" alt="Screenshot 2024-03-08 at 21 39 11" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/0269a196-02d5-4939-92b0-f771117420af">
+
 
 ## Credits
 ### Media
