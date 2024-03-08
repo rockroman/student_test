@@ -292,6 +292,11 @@ IMAGE
 * #### Responsiveness
 <img width="930" alt="Screenshot 2024-03-08 at 21 39 11" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/0269a196-02d5-4939-92b0-f771117420af">
 
+<img width="929" alt="Screenshot 2024-03-08 at 21 41 25" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/8f5e282c-f0bc-4bfa-aeb8-e16da47e8dc3">
+
+<img width="928" alt="Screenshot 2024-03-08 at 21 41 14" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/9de26f84-ecb0-4023-9ce5-fb02cdffa3b9">
+
+<img width="930" alt="Screenshot 2024-03-08 at 21 41 03" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/5974947b-b41f-460e-904e-7eb9a1980a6f">
 
 ## Credits
 ### Media
