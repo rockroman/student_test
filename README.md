@@ -98,6 +98,21 @@ Mobile View
 
 * #### User wants to view the purchase total at any time
 <img width="1440" alt="Screenshot 2024-03-05 at 21 04 02" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/584a9fa9-7427-4eb5-b484-fe7635d0a4b0">
+
+* #### User wants to sort products by price, rating, alphabetical an category
+<img width="1440" alt="Screenshot 2024-03-08 at 20 18 58" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/4edd90bd-a6a3-485b-9491-c4a5040ef9b0">
+
+* #### User wants to select from soup style and type
+<img width="1440" alt="Screenshot 2024-03-08 at 20 18 34" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/5d8ff35f-d5d8-4453-8429-225ed15ee77a">
+
+* #### User wants to search products by keyword such as "tomato"
+<img width="1440" alt="Screenshot 2024-03-08 at 20 10 47" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/3ca0d4c5-b35d-4910-82e7-1f95f7db820b">
+
+* #### User wants to see what they searched for and number of results
+<img width="1440" alt="Screenshot 2024-03-08 at 20 10 22" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/9b0fe3c0-4d54-4e5b-a24f-ff41c75e1f07">
+
+
+
 * #### Navigation
 IMAGE
 
