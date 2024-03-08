@@ -128,6 +128,19 @@ Mobile View
 
 * #### User wants to sign up for an account
 <img width="1440" alt="Screenshot 2024-03-08 at 20 34 21" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/fec06d0a-7b26-40bf-8d46-6f2326e2c1a6">
+
+* #### User wants to see product rating
+<img width="1440" alt="Screenshot 2024-03-08 at 20 45 59" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/1231b9a3-6508-42c6-bc83-776f04ee30c3">
+
+* #### User wants to manage a product
+<img width="1439" alt="Screenshot 2024-03-08 at 20 45 31" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/cfdbf765-26d8-4513-acf8-9f1c2aabf17d">
+
+* #### User wants to edit or delete a product
+<img width="1440" alt="Screenshot 2024-03-08 at 20 45 19" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/605e3a5d-940c-43f4-ba90-253b6e821c3a">
+
+* #### User wants to leave product reviews
+<img width="1440" alt="Screenshot 2024-03-08 at 20 45 10" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/154303af-2219-48c9-a8b8-d38cf2413482">
+
 * #### Navigation
 IMAGE
 
