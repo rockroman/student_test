@@ -277,7 +277,7 @@ IMAGE
 
 
 * #### Lighthouse Analysis
-
+<img width="1440" alt="Screenshot 2024-03-08 at 21 35 53" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/08a63dbe-53dd-4c84-bd59-36a5170bfe11">
 
 * #### Browser Compatibility
 Chrome
