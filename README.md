@@ -111,8 +111,23 @@ Mobile View
 * #### User wants to see what they searched for and number of results
 <img width="1440" alt="Screenshot 2024-03-08 at 20 10 22" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/9b0fe3c0-4d54-4e5b-a24f-ff41c75e1f07">
 
+* #### User wants to create a product
+<img width="1440" alt="Screenshot 2024-03-08 at 20 36 08" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/537100eb-1300-406f-a837-ad81822c26f4">
 
+* #### User wants to login/out easily
+<img width="1440" alt="Screenshot 2024-03-08 at 20 35 56" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/57e0d0b7-e047-448b-a897-f639388dcb75">
 
+* #### User wants to create a profile
+<img width="1440" alt="Screenshot 2024-03-08 at 20 35 29" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/7f90758c-ea4a-45a2-b22f-8ab0bebeea8b">
+
+* #### User wants a login success message
+<img width="1440" alt="Screenshot 2024-03-08 at 20 35 00" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/15e8d70b-1f55-4a18-bb7c-29073fc13e3c">
+
+* #### User wants to sign in to their account
+<img width="1440" alt="Screenshot 2024-03-08 at 20 34 49" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/585cdbb5-de11-46ed-bd32-26e2942009ee">
+
+* #### User wants to sign up for an account
+<img width="1440" alt="Screenshot 2024-03-08 at 20 34 21" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/fec06d0a-7b26-40bf-8d46-6f2326e2c1a6">
 * #### Navigation
 IMAGE
 
