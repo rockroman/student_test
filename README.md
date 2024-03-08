@@ -141,14 +141,31 @@ Mobile View
 * #### User wants to leave product reviews
 <img width="1440" alt="Screenshot 2024-03-08 at 20 45 10" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/154303af-2219-48c9-a8b8-d38cf2413482">
 
+* #### User wants to comment on a blog
+<img width="1434" alt="Screenshot 2024-03-08 at 21 57 44" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/cac805c0-1de9-4f1a-8c91-20f3cf29be85">
 
+* #### User wants to edit and delete their comments
+<img width="1440" alt="Screenshot 2024-03-08 at 21 57 21" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/96dbd6b3-a1cd-426e-a7c1-d22c8f3a2186">
 
+* #### User wants to read historical blog comments
+<img width="1440" alt="Screenshot 2024-03-08 at 21 56 57" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/9931b516-bccf-4038-ba2d-b146223b038f">
 
+* #### User wants to read blog in detail
+<img width="1440" alt="Screenshot 2024-03-08 at 21 56 20" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/6e7bcc9f-6253-49a0-8ebe-84ade730a09f">
 
-
+* #### User wants to read brief blog and have a read more option
+<img width="1440" alt="Screenshot 2024-03-08 at 21 56 06" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/44bd8978-9b29-4ab0-8640-65caee42700d">
 
 ## Future Additions
-IMAGE
+Wishlist - One of the exciting features on the horizon for The Soup Fan is the implementation of a wishlist feature. This addition will empower users to curate a personalized collection of desired items, facilitating easier browsing and purchasing in the future. The wishlist feature offers several benefits to both users and The Soup Fan store.  
+* #### Shopping Experience
+Users can create a wishlist tailored to their preferences, allowing them to keep track of items they're interested in purchasing without committing to an immediate purchase. Save for Later: Instead of adding items directly to the cart, users can save them to the wishlist for future consideration. This helps in managing shopping priorities and budgeting effectively. 
+ * #### Reminders and Notifications
+Users can receive notifications or reminders about items in their wishlist, such as price drops, availability updates, or limited-time offers, helping them make informed purchasing decisions. 
+ * #### Gift Ideas And Sharing
+Users can use their wishlist as a reference for gift ideas, and they can also share their wishlist with friends and family, making it easier for others to select gifts they'll truly appreciate. 
+ * #### Return Visits
+By encouraging users to revisit the platform to manage their wishlist, it increases engagement and the likelihood of future purchases. Overall, the wishlist feature enhances the user experience by providing a convenient way to organize desired items, leading to increased customer satisfaction and loyalty.
 
 ## Deployment
 * #### Creating An Application With Heroku
