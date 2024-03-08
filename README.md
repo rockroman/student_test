@@ -279,15 +279,11 @@ IMAGE
 * #### Lighthouse Analysis
 <img width="1440" alt="Screenshot 2024-03-08 at 21 35 53" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/08a63dbe-53dd-4c84-bd59-36a5170bfe11">
 
-* #### Browser Compatibility
-Chrome
-<br>
-IMAGE
+* #### Browser Compatibility - Safari
+<img width="1335" alt="Screenshot 2024-03-08 at 21 44 16" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/584acafd-4048-4f5c-945c-5faa4bef5416">
 
-<br>
-Safari
-<br>
-IMAGE
+* #### Browser Compatibility - Chrome
+<img width="1440" alt="Screenshot 2024-03-08 at 21 43 43" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/f64d3b3d-648f-4d30-9818-7ee4944fa3ba">
 
 * #### Responsiveness
 <img width="930" alt="Screenshot 2024-03-08 at 21 39 11" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/0269a196-02d5-4939-92b0-f771117420af">
