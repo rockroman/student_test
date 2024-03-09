@@ -127,6 +127,15 @@ p.extend {
 
 }
 
+form.extend {
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color:lightgrey;
+    color: #000;
+
+}
+
 /* Button styling */
 .btn-black {
     background: black;

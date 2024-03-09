@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect,get_object_or_404
 from django.contrib.auth.decorators import login_required
 from .forms import CommentForm
 from .models import Post, Comment
@@ -14,6 +14,7 @@ def post_detail(request, slug):
         if form.is_valid():
             comment = form.save(commit=False)
             comment.post = post
+            comment.user = request.user
             comment.save()
             return redirect('post_detail', slug=post.slug)
     else:
@@ -34,8 +35,11 @@ def edit_comment(request, pk):
 
 @login_required
 def delete_comment(request, pk):
-    comment = Comment.objects.get(pk=pk)
-    if request.method == 'POST':
-        comment.delete()
+    comment = get_object_or_404(Comment, pk=pk)
+    if request.user == comment.user:
+        if request.method == 'POST':
+            comment.delete()
+            return redirect('post_detail', slug=comment.post.slug)
+        return render(request, 'blog/delete_comment.html', {'comment': comment})
+    else:
         return redirect('post_detail', slug=comment.post.slug)
-    return render(request, 'delete_comment.html', {'comment': comment})
