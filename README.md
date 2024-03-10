@@ -201,23 +201,14 @@ The following steps need to be taken to deploy the application.
 
 ## Testing
 * #### Code Validation
-  PYTHON - CI Python Linter
-  - No issues found
-IMAGE
 
   HTML - W3. Org Validator
-  - No Issues Found
-IMAGE
-  
-  CSS - W3C Jigsaw Validator
-  - No issues found
- IMAGE
 
-  JAVASCRIPT - JSHINT
-  - No issues found
-IMAGE
+<img width="1440" alt="Screenshot 2024-03-10 at 10 58 25" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/98317087-7398-48e8-afc5-1aced6f1740d">
 
+CSS - W3C Jigsaw Validator
 
+<img width="1440" alt="Screenshot 2024-03-09 at 19 22 13" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/7c9785ad-4092-4ef0-a3cb-474a1800cde3">
 
 * #### Lighthouse Analysis
 <img width="1440" alt="Screenshot 2024-03-08 at 21 35 53" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/08a63dbe-53dd-4c84-bd59-36a5170bfe11">
