@@ -250,9 +250,18 @@ CSS - W3C Jigsaw Validator
 
 <img width="930" alt="Screenshot 2024-03-08 at 21 41 03" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/5974947b-b41f-460e-904e-7eb9a1980a6f">
 
+## BUGS
+* Edit comment link in Blog
+There is a persistent issue with the edit form link which has been unable to be resolved, presenting an error when the button to edit the comment is clicked on. Steps taken to try to resolve include tutor support, slack channel and the project mentor. I have also searched on forums such as Stack Overflow to look for similar issue and checked the code for syntax errors and formatting issues that could help to identify the cause of the issue. This is something that would need to be fixed before final deployment to a commercial environment.
+
+* Missing feature in Heroku
+In the deployed application the DELETE button is missing when the user clicks delete comment in the blog section of the website. The delete button is present in the development environment and works as intended, and as to why it does not show or work on the deployed app is yet to be fixed.
+
+
+
 ## Credits
 ### Media
- * Icons for the forms are from [NAME](URL)
- * The responsive framework is from [NAME](URL)
- * Images are taken froM [NAME](URL)
-
+ * Icons are from [FONTAWESOME] (https://fontawesome.com/)
+ * The responsive framework is from [BOOTSTRAP] (https://getbootstrap.com/)
+ * Images are taken from [PEXELS] (https://www.pexels.com/)https://www.pexels.com/)
+ * Blog and review tutorials [CODE WITH STEIN] (https://www.youtube.com/@CodeWithStein)
