@@ -138,6 +138,28 @@ Mobile View
 * #### User wants to edit or delete a product
 <img width="1440" alt="Screenshot 2024-03-08 at 20 45 19" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/605e3a5d-940c-43f4-ba90-253b6e821c3a">
 
+* #### User can see bag is empty
+<img width="1440" alt="Screenshot 2024-03-10 at 11 08 37" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/d984ae0a-f6bc-4feb-8578-2aa69556f792">
+
+* #### User can ad quantity to bag
+<img width="1440" alt="Screenshot 2024-03-10 at 11 08 56" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/e9687664-8f3e-4b18-804a-f4c00afa43eb">
+
+* #### User can easily proceed to checkout
+<img width="1436" alt="Screenshot 2024-03-10 at 11 09 05" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/430f3131-a653-4efa-ad98-f43bb3993d39">
+
+* #### User can view and update bag
+<img width="1438" alt="Screenshot 2024-03-10 at 11 09 36" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/8f3d77f8-860b-4e3c-93d2-3a53008c1043">
+
+<img width="1440" alt="Screenshot 2024-03-10 at 11 09 47" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/0162d4dd-c2d8-480e-813e-e11b5bcf4ed9">
+
+* #### User can easily add details to checkout
+<img width="1440" alt="Screenshot 2024-03-10 at 11 10 09" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/baa8ea7f-d8e2-44bf-bccc-46c50d2575d2">
+
+<img width="1440" alt="Screenshot 2024-03-10 at 11 10 52" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/ec2d7c30-53ef-4beb-93bc-9e1dcaaaf61a">
+
+* #### User can recieve successful purchase notification
+<img width="1439" alt="Screenshot 2024-03-10 at 11 11 09" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/6f0ed614-a5a0-4ca4-bb02-17949d18d77d">
+
 * #### User wants to leave product reviews
 <img width="1440" alt="Screenshot 2024-03-08 at 20 45 10" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/154303af-2219-48c9-a8b8-d38cf2413482">
 
