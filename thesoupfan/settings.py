@@ -12,10 +12,10 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 import dj_database_url
 
+secret_key = os.environ.get("SECRET_KEY_HEROKU")
+
 if os.path.exists("env.py"):
     import env
-
-os.environ.get("SECRET_KEY_HEROKU")
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -28,7 +28,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'p@ei#69*b*zz3u4yie-$()@cy^l(+x9&@6ypx+r0lm(3%_9hr7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['the-soup-fan-6573d32fd512.herokuapp.com', '8000-elliotjonesd-thesoupfan-qsgoxljsriz.ws-eu108.gitpod.io', 'localhost']
 

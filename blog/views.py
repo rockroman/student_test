@@ -31,7 +31,7 @@ def edit_comment(request, pk):
             return redirect('post_detail', slug=comment.post.slug)
     else:
         form = CommentForm(instance=comment)
-    return render(request, 'edit_comment.html', {'form': form})
+    return render(request, 'blog/edit_comment.html', {'form': form})
 
 @login_required
 def delete_comment(request, pk):

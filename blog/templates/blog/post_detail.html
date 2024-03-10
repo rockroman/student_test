@@ -20,6 +20,8 @@
                     <p>
                         <strong>{{ comment.name }}</strong> <small>{{ comment.date_added }}</small>
                         <br>
+                        {{ comment.pk }}
+                        <br>
                         {{ comment.body }}
                     </p>
                     {% if user.is_authenticated and comment.user == user %}

@@ -3,9 +3,9 @@
 {% block content %}
     <h1>Edit Comment</h1>
 
-    <form method="post" class="extend" action="{% url 'edit_comment' comment.pk %}">
+    <!-- <form method="post" class="extend" action="{% url 'edit_comment' comment.pk %}">
         {% csrf_token %}
         {{ form.as_p }}
         <button type="submit" class="button is-primary">Save Changes</button>
-    </form>
+    </form> -->
 {% endblock %}
