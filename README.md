@@ -178,6 +178,9 @@ Mobile View
 * #### User wants to read brief blog and have a read more option
 <img width="1440" alt="Screenshot 2024-03-08 at 21 56 06" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/44bd8978-9b29-4ab0-8640-65caee42700d">
 
+* #### User wants to delete blog comment
+<img width="1440" alt="Screenshot 2024-03-10 at 12 27 31" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/34b0ab9f-54b0-4c4c-8303-11b326b9287b">
+
 ## Future Additions
 Wishlist - One of the exciting features on the horizon for The Soup Fan is the implementation of a wishlist feature. This addition will empower users to curate a personalized collection of desired items, facilitating easier browsing and purchasing in the future. The wishlist feature offers several benefits to both users and The Soup Fan store.  
 * #### Shopping Experience
@@ -254,9 +257,12 @@ CSS - W3C Jigsaw Validator
 * Edit comment link in Blog
 There is a persistent issue with the edit form link which has been unable to be resolved, presenting an error when the button to edit the comment is clicked on. Steps taken to try to resolve include tutor support, slack channel and the project mentor. I have also searched on forums such as Stack Overflow to look for similar issue and checked the code for syntax errors and formatting issues that could help to identify the cause of the issue. This is something that would need to be fixed before final deployment to a commercial environment.
 
+<img width="1440" alt="Screenshot 2024-03-10 at 12 28 40" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/9a22f54c-2906-4c37-aca2-396f58c5767f">
+
 * Missing feature in Heroku
 In the deployed application the DELETE button is missing when the user clicks delete comment in the blog section of the website. The delete button is present in the development environment and works as intended, and as to why it does not show or work on the deployed app is yet to be fixed.
 
+<img width="1440" alt="Screenshot 2024-03-10 at 12 29 07" src="https://github.com/elliotjonesdev/the-soup-fan/assets/119816371/1ab838cb-f034-4ee1-ac19-9303d596fd7c">
 
 
 ## Credits
