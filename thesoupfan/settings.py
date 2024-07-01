@@ -30,7 +30,12 @@ SECRET_KEY = 'p@ei#69*b*zz3u4yie-$()@cy^l(+x9&@6ypx+r0lm(3%_9hr7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['the-soup-fan-6573d32fd512.herokuapp.com', '8000-elliotjonesd-thesoupfan-qsgoxljsriz.ws-eu108.gitpod.io', 'localhost']
+ # Add Render.com URL to allowed hosts
+RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
+if RENDER_EXTERNAL_HOSTNAME:
+   ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
+
+ALLOWED_HOSTS = ['the-soup-fan-6573d32fd512.herokuapp.com', '8000-elliotjonesd-thesoupfan-qsgoxljsriz.ws-eu108.gitpod.io', 'localhost',]
 
 
 # Application definition
