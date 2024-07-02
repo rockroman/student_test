@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 import dj_database_url
 
-secret_key = os.environ.get("SECRET_KEY_HEROKU")
+# secret_key = os.environ.get("SECRET_KEY_HEROKU")
 
 if os.path.exists("env.py"):
     import env
