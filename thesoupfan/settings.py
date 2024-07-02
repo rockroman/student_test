@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 import dj_database_url
 
-# secret_key = os.environ.get("SECRET_KEY_HEROKU")
+secret_key = os.environ.get("SECRET_KEY_HEROKU")
 
 if os.path.exists("env.py"):
     import env
@@ -35,7 +35,7 @@ RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
 if RENDER_EXTERNAL_HOSTNAME:
    ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
 
-ALLOWED_HOSTS = ['the-soup-fan-6573d32fd512.herokuapp.com', '8000-elliotjonesd-thesoupfan-qsgoxljsriz.ws-eu108.gitpod.io', 'localhost',]
+ALLOWED_HOSTS = ['the-soup-fan-6573d32fd512.herokuapp.com', '8000-elliotjonesd-thesoupfan-qsgoxljsriz.ws-eu108.gitpod.io', 'localhost','8000-elliotjonesd-thesoupfan-52c5malnt71.ws.codeinstitute-ide.net']
 
 
 # Application definition
@@ -129,17 +129,17 @@ WSGI_APPLICATION = 'thesoupfan.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-if 'DATABASE_URL' in os.environ:
-    DATABASES = {
+# if 'DATABASE_URL' in os.environ:
+DATABASES = {
         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
-else:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        }
-    }
+# else:
+# DATABASES = {
+#         'default': {
+#             'ENGINE': 'django.db.backends.sqlite3',
+#             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#         }
+#     }
 
 
 # Password validation
